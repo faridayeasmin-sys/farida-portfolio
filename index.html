@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Farida Yeasmin</title>
+<meta name="description" content="Farida Yeasmin is a web developer offering modern, responsive and professional website design and development services.">
+
+<meta property="og:title" content="Farida Yeasmin - Web Developer">
+
+<meta property="og:description" content="Modern and responsive website design and development services by Farida Yeasmin.">
+
+<meta property="og:image" content="farida.jpg">
+
+<link rel="icon" type="image/jpeg" href="farida.jpg">
+<meta name="description" content="Farida Yeasmin is a web developer offering modern, responsive and professional website design and development services.">
+<link rel="icon" type="image/jpeg" href="farida.jpg">
+
+    <style>
+
+        /* ===== General ===== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #222;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: purple;
+            font-size: 42px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px gray;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: purple;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: purple;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+
+        /* ===== Navigation ===== */
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 8px gray;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: purple;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: purple;
+            color: white;
+            text-decoration: none;
+        }
+
+
+        /* ===== Home ===== */
+
+        #home {
+            min-height: 60vh;
+            padding: 80px 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #home h1 {
+            font-size: 42px;
+        }
+
+        #home h2 {
+            color: purple;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        #home p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #home img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 4px 10px gray;
+            margin: 20px 0;
+        }
+
+
+        /* ===== Buttons ===== */
+
+        button {
+            background-color: purple;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: blue;
+            transform: scale(1.05);
+        }
+
+        .home-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: purple;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .home-btn:hover {
+            background-color: black;
+            transform: scale(1.05);
+        }
+
+
+        /* ===== About ===== */
+
+        #about {
+            text-align: center;
+        }
+
+        .about-box {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: lavender;
+            border: 2px solid purple;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px gray;
+        }
+
+        #about p {
+            max-width: 700px;
+            margin: 10px auto;
+            line-height: 1.8;
+            color: #333;
+        }
+
+
+        /* ===== Skills ===== */
+
+        #skills {
+            text-align: center;
+        }
+
+        .skills-box {
+            max-width: 800px;
+            margin: 30px auto 0;
+            padding: 25px;
+            background-color: white;
+            border: 2px solid blue;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px gray;
+        }
+
+        #skills p {
+            display: inline-block;
+            background-color: lavender;
+            color: purple;
+            padding: 10px 18px;
+            margin: 6px;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        #skills p:hover {
+            background-color: rgb(15, 2, 15);
+            color: white;
+            transform: scale(1.05);
+        }
+
+
+        /* ===== Projects ===== */
+
+        #projects {
+            margin-bottom: 30px;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            width: 280px;
+            padding: 25px;
+            margin: 10px;
+            background-color: #f5f5f5;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            transition: 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: 0.3s ease;
+        }
+
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .project-card p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .project-card a:hover {
+            background-color: black;
+            transform: translateY(-3px);
+        }
+
+
+        /* ===== Services ===== */
+
+        #services {
+            margin-bottom: 30px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            width: 280px;
+            padding: 25px;
+            background-color: #f5f5f5;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px) scale(1.03);
+        }
+
+        .service-card h3 {
+            color: purple;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+
+        /* ===== Testimonials ===== */
+
+        #testimonials {
+            margin-bottom: 30px;
+        }
+
+        .testimonials-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .testimonial-card {
+            width: 280px;
+            padding: 25px;
+            background-color: #f5f5f5;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .testimonial-card p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        .testimonial-card h3 {
+            font-size: 18px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+
+        /* ===== Contact ===== */
+
+        #contact {
+            text-align: center;
+            background-color: #f5f5f5;
+            border-radius: 15px;
+        }
+
+        #contact h2 {
+            color: purple;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        #contact > p {
+            color: #555;
+        }
+
+        #contactForm {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 25px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #contactForm input,
+        #contactForm textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        #contactForm textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        #contactForm input:focus,
+        #contactForm textarea:focus {
+            outline: none;
+            border-color: rgb(5, 78, 114);
+            box-shadow: 0 0 5px rgba(128, 0, 128, 0.3);
+            transform: scale(1.02);
+        }
+
+        #contactForm button {
+            width: 150px;
+            align-self: center;
+        }
+
+        #contactForm button:hover {
+            background-color: #4a0241;
+            transform: scale(1.05);
+        }
+
+        #successMessage {
+            color: green;
+            font-size: 16px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+
+        /* ===== Footer ===== */
+
+        footer {
+            background-color: #e4e3ef;
+            color: rgb(21, 1, 19);
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 15px;
+        }
+
+
+        /* ===== Back To Top Button ===== */
+
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+        }
+
+        #backToTop:hover {
+            background-color: black;
+        }
+
+
+        /* ===== Mobile Responsive ===== */
+
+        @media (max-width: 768px) {
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 5px;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+
+            #home {
+                padding: 50px 15px;
+            }
+
+            #home h1 {
+                font-size: 32px;
+            }
+
+            #home h2 {
+                font-size: 28px;
+            }
+
+            #home p {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .about-box,
+            .skills-box {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .projects-container,
+            .services-container,
+            .testimonials-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project-card,
+            .service-card,
+            .testimonial-card {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            #contact {
+                padding: 40px 15px;
+            }
+
+            #contactForm {
+                padding: 20px;
+            }
+
+            footer {
+                padding: 15px;
+            }
+
+            footer p {
+                font-size: 14px;
+            }
+        }
+        .whatsapp-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
+.email-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.email-btn:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- Home -->
+
+    <section id="home">
+
+        <h1>Farida Yeasmin</h1>
+
+        <h2>Welcome to My Website</h2>
+
+        <p>I am a successful Web Developer.</p>
+
+        <a href="#contact" class="home-btn">Contact Me</a>
+
+        <img src="farida.jpg" alt="Farida">
+
+        <button onclick="showMessage()">Hire Me</button>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section id="about">
+
+        <div class="about-box">
+
+            <h2>About Me</h2>
+
+            <p>
+                I’m Farida Yasmin. I’m from Sherpur District
+                in the Mymensingh Division of Bangladesh.
+            </p>
+
+            <p>
+                I am a successful freelancer, and I am ready
+                to help you solve your website-related problems.
+                I can identify and fix website issues and help
+                improve overall website performance.
+            </p>
+
+            <button onclick="showMessage()">Hire Me</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <div class="skills-box">
+
+            <h2>My Skills</h2>
+
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Web Design</p>
+            <p>Web Development</p>
+            <p>SEO</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Business Website</h3>
+
+                <img src="business.jpg" alt="Business Website">
+
+                <p>
+                    A modern and responsive website
+                    for a small business.
+                </p>
+
+                <a href="https://example.com" target="_blank">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <img src="portfolio.jpg" alt="Portfolio Website">
+
+                <p>
+                    A clean and professional portfolio
+                    website for freelancers.
+                </p>
+
+                <a href="https://example.com" target="_blank">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Online Store</h3>
+
+                <img src="store.jpg" alt="Online Store">
+
+                <p>
+                    A responsive e-commerce website
+                    design for online businesses.
+                </p>
+
+                <a href="https://example.com" target="_blank">
+                    View Project
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+
+    <section id="services">
+
+        <h2>My Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <h3>Web Design</h3>
+
+                <p>
+                    Modern and attractive website designs
+                    for businesses and personal brands.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Responsive Website</h3>
+
+                <p>
+                    Websites that look great on mobile,
+                    tablet, and desktop devices.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    Professional landing pages designed
+                    to attract visitors and generate results.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+
+        <h2>What Clients Say</h2>
+
+        <div class="testimonials-container">
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Amazing work! The website looks
+                    professional and works perfectly."
+                </p>
+
+                <h3>- Client 1</h3>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Very professional and easy to work with.
+                    Highly recommended!"
+                </p>
+
+                <h3>- Client 2</h3>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Great design and excellent service.
+                    I am very happy with the result."
+                </p>
+
+                <h3>- Client 3</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: faridayasmin2349@gmail.com</p>
+
+        <p>Feel free to contact me</p>
+
+        <a href="https://wa.me/8801303045995" 
+   class="whatsapp-btn" 
+   target="_blank">
+    Chat on WhatsApp
+</a>
+<a href="mailto:faridayasmin2349@gmail.com" class="email-btn">
+    Send Me an Email
+</a>
+
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+            <p id="successMessage"></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 Farida. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <!-- Back To Top Button -->
+
+    <button id="backToTop">↑ Top</button>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+    // Hire Me Button
+    function showMessage() {
+        alert("Thank you for your interest! Please contact me.");
+    }
+
+
+    // Contact Form
+    document.getElementById("contactForm").addEventListener(
+        "submit",
+        function(event) {
+
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            const successMessage =
+                document.getElementById("successMessage");
+
+            const button = this.querySelector("button");
+
+
+            // Empty field validation
+            if (name === "" || email === "" || message === "") {
+
+                successMessage.textContent =
+                    "Please fill in all fields.";
+
+                return;
+            }
+
+
+            // Email validation
+            if (!email.includes("@")) {
+
+                successMessage.textContent =
+                    "Please enter a valid email.";
+
+                return;
+            }
+
+
+            // Sending message
+            button.textContent = "Sending...";
+
+
+            setTimeout(function() {
+
+                successMessage.textContent =
+                    "Thank you, " +
+                    name +
+                    "! Your message has been sent.";
+
+                button.textContent = "Send Message";
+
+                document
+                    .getElementById("contactForm")
+                    .reset();
+
+            }, 1000);
+
+        }
+    );
+
+
+    // Smooth Navigation
+    document
+        .querySelectorAll("nav a")
+        .forEach(function(link) {
+
+            link.addEventListener(
+                "click",
+                function(event) {
+
+                    event.preventDefault();
+
+                    const target =
+                        document.querySelector(
+                            this.getAttribute("href")
+                        );
+
+                    if (target) {
+
+                        target.scrollIntoView({
+                            behavior: "smooth"
+                        });
+
+                    }
+
+                }
+            );
+
+        });
+
+
+    // Back To Top Button
+    const backToTop =
+        document.getElementById("backToTop");
+
+
+    window.addEventListener(
+        "scroll",
+        function() {
+
+            if (window.scrollY > 300) {
+
+                backToTop.style.display = "block";
+
+            } else {
+
+                backToTop.style.display = "none";
+
+            }
+
+        }
+    );
+
+
+    backToTop.addEventListener(
+        "click",
+        function() {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+    );
+
+</script>
+</body>
+
+</html>

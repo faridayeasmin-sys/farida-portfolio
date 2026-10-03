@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Farida Yeasmin
 
-### 💻 Web Developer | WordPress & WooCommerce | Next.js
+### 💻 Web Developer | App Developer | WordPress & WooCommerce | Next.js | HTML, CSS & JavaScript
 
 I'm a passionate Web Developer focused on building modern, responsive, user-friendly and professional websites.
 
@@ -22,24 +22,62 @@ I work with WordPress, WooCommerce, HTML, CSS, JavaScript and Next.js, and I enj
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠 Skills & Technologies
 
-### Front-End
+### 🌐 Web Development
 - HTML5
 - CSS3
 - JavaScript
-- Responsive Web Design
 - Next.js
-
-### WordPress
+- Responsive Web Design
 - WordPress
 - WooCommerce
 - Elementor
-- E-commerce Website Development
-- Landing Page Design
-- Website Customization
-- Product & Checkout Setup
+- E-commerce Development
 
+### 📱 App Development
+- Android App Development
+- Kotlin
+- Jetpack Compose
+- Firebase
+- Responsive Mobile UI
+- Authentication System
+- Admin & User Features
+
+### 💻 Web App Development
+- Next.js Web Applications
+- Dynamic Web Applications
+- E-commerce Web Applications
+- Dashboard & Admin Panel
+- Authentication & User Management
+- API Integration
+
+### 🛒 E-commerce Development
+- WooCommerce Store Development
+- Product & Category Management
+- Cart & Checkout Customization
+- Payment Integration
+- Order Management
+- Custom E-commerce UI
+
+### 🔧 Tools & Platforms
+- Git & GitHub
+- Android Studio
+- Firebase
+- Elementor
+- WPCode
+- Netlify
+- LocalWP
+
+### ✨ What I Can Build
+- Business Websites
+- E-commerce Websites
+- Portfolio Websites
+- Landing Pages
+- Responsive Web Applications
+- Android Applications
+- Admin Dashboards
+- Custom WordPress Websites
 ### Tools
 - Git
 - GitHub

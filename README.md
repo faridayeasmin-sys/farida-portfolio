@@ -78,6 +78,63 @@ I work with WordPress, WooCommerce, HTML, CSS, JavaScript and Next.js, and I enj
 - Android Applications
 - Admin Dashboards
 - Custom WordPress Websites
+- ---
+## 🚀 Featured Projects
+
+### 🤖 Nexora AI
+Modern AI-powered web application with a clean, responsive and user-friendly interface.
+
+**Type:** AI Web Application  
+**Focus:** Modern UI • Responsive Design • AI Features • Web App Development
+
+---
+
+### 🧠 Aivora
+AI-focused modern web application designed with a professional and responsive user experience.
+
+**Type:** AI Web Application  
+**Focus:** AI Integration • Modern UI/UX • Responsive Design • Web Development
+
+---
+
+### 🪑 Bright Furniture
+Professional furniture e-commerce website with product browsing, shopping and online ordering features.
+
+**Technologies:** WordPress • WooCommerce • Elementor • Custom CSS  
+**Features:** Product Management • Product Categories • Cart • Checkout • Order System • Mobile Responsive Design
+
+---
+
+### 📱 KMC Mobile App
+Android application with member, wallet and transaction management features.
+
+**Technologies:** Kotlin • Jetpack Compose • Firebase  
+**Features:** Login • Member Management • Wallet • Deposit • Withdraw • Transaction Management
+
+---
+
+### 💻 MN Computer
+Responsive electronics e-commerce website with shopping and administration features.
+
+**Technologies:** HTML • CSS • JavaScript  
+**Features:** Products • Cart • Checkout • Wishlist • Orders • Admin Panel
+
+
+## 💼 Services
+
+- 🌐 Website Development
+- 🛒 E-commerce Development
+- 📱 Android App Development
+- 💻 Web App Development
+- 🛠 WordPress & WooCommerce Development
+- 📱 Responsive Website Design
+- 🔧 Website Customization & Bug Fixing
+
+---
+
+## 📫 Let's Connect
+
+I'm available for freelance projects and collaboration opportunities.
 ### Tools
 - Git
 - GitHub
